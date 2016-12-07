@@ -18,6 +18,7 @@ public class MetricsComputationJobTest {
 
             MetricsComputationJob.compute();
         } catch (Exception e) {
+
             fail(e.getMessage());
         }
     }

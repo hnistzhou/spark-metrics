@@ -30,6 +30,5 @@ public class MetricsStreammingJob {
         wordCounts.print();
         jssc.start();
         jssc.awaitTermination();
-
     }
 }

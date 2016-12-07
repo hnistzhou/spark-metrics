@@ -23,9 +23,15 @@ public class PropertyUtils {
 
     }
 
+
     public static Integer getInt(String propertyKey) {
         String property = getProperty(propertyKey);
         return NumberUtils.toInt(property);
+    }
+
+    public static Long getLong(String propertyKey) {
+        String property = getProperty(propertyKey);
+        return NumberUtils.toLong(property);
     }
 
 }
